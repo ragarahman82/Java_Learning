@@ -39,5 +39,20 @@ public class Perulangan {
         pilihan = input.nextInt();
         } 
         while (pilihan < 1 || pilihan > 5); // do-while: jalan minimal sekali
+
+
+        for (int i = 1; i <= 10; i++) {
+        if (i == 3) continue;   // lewati putaran ini, lanjut ke i berikutnya
+        if (i == 7) break;      // berhenti total dari loop
+        System.out.println(i); // Output: 1 2 4 5 6 
+        }   // break → keluar dari loop, continue → lompat ke putaran berikutnya
+
+        for (int baris = 1; baris <= 3; baris++) {
+        for (int kolom = 1; kolom <= 4; kolom++) {
+        System.out.print("* ");
+        }
+        System.out.println(); //Nested loop (loop di dalam loop)
+        }
+
     }
 }
