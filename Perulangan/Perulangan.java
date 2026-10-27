@@ -53,6 +53,6 @@ public class Perulangan {
         }
         System.out.println(); //Nested loop (loop di dalam loop)
         }
-
+        input.close();
     }
 }
