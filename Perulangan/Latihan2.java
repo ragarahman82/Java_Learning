@@ -14,6 +14,6 @@ public class Latihan2 {
         } else {
             System.out.println("Bilangan ganjil");
         }
-         input.close();
+        input.close();
     }
 }
