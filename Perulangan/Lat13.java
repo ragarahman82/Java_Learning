@@ -23,6 +23,8 @@ public class Lat13 {
         System.out.println("Jumlah karakter: " + kalimat.length());
         System.out.println("Huruf besar: " + kalimat.toUpperCase());
         System.out.println("Jumlah huruf vokal: " + vokal);
+
+        input.close();
     }
 }
 
