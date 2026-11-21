@@ -1,5 +1,4 @@
-
-package BagianClassMethod.Class;
+package OOPDasar;
 
 public class Mahasiswa {
 
@@ -12,3 +11,4 @@ public class Mahasiswa {
         System.out.println("Halo, saya " + nama + ", umur " + umur);
     }
 }
+
